@@ -1,23 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
-    <Ad id="1">
-        <InLine>
-            <AdSystem>GDPlayer</AdSystem>
-            <AdTitle>intro </AdTitle>
-            <Creatives>
-                <Creative id="2" sequence="1">
-                    <Linear skipoffset="00:00:04">
-                        <Duration>00:00:03</Duration>
-                        <VideoClicks>
-                            <ClickThrough id="blog"><![CDATA[#]]></ClickThrough>
-                            <CustomClick>#</CustomClick>
-                        </VideoClicks>
-                        <MediaFiles>
-                            <MediaFile id="3" delivery="progressive" type="video/mp4" scalable="1" maintainAspectRatio="1" codec="0" apiFramework="VAST"><![CDATA[https://files.catbox.moe/fpb7gi.mp4]]></MediaFile>
-                        </MediaFiles>
-                    </Linear>
-                </Creative>
-            </Creatives>
-        </InLine>
-    </Ad>
+<VAST version="3.0">
+<Ad id="adsterra-direct">
+<InLine>
+<AdSystem>Adsterra</AdSystem>
+<AdTitle>Monetization Redirect</AdTitle>
+<Impression>
+<![CDATA[ https://www.profitableratecpm.com/c3641dmj?key=9a413a16cdde191a2ae9836426923750 ]]>
+</Impression>
+<Creatives>
+<Creative>
+<Linear>
+<Duration>00:00:05</Duration>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ https://www.profitableratecpm.com/c3641dmj?key=9a413a16cdde191a2ae9836426923750 ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[ https://www.profitableratecpm.com/c3641dmj?key=9a413a16cdde191a2ae9836426923750&ev=click ]]>
+</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" type="video/mp4" width="1" height="1">
+<![CDATA[ https://1a-1791.com/video/fww1/f2/s8/2/W/m/a/-/Wma-y.aaa.mp4 ]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
 </VAST>
